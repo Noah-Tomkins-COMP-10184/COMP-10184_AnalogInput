@@ -30,11 +30,11 @@ void loop() {
     double temp = ((double)(map(iVal, 0, 1024, 0, 5000)) / 100);
 
     Serial.println(
-        "Digitized Value of" + String(iVal) + 
+        "Digitized Value of " + String(iVal) + 
         " is equivalent to a temperature of " + String(temp) + 
         "°C, which is " + getTempString(temp)
     );
     
-    delay(500);
+    delay(2000);
 }
 
